@@ -189,5 +189,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.low_ram=true
 
+# Hardware Info
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.device.chipset=Qualcomm Snapdragon S2 \
+    ro.device.cpu=1.4GHz single-core Scorpion \
+    ro.device.gpu=Adreno 205
+
 # proprietary side of the board
 $(call inherit-product, vendor/semc/msm7x30-common/msm7x30-common-vendor.mk)
