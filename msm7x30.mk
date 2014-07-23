@@ -197,6 +197,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.low_ram=true
 
+# Disable strict mode
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.strictmode.visual=0 \
+    persist.sys.strictmode.disable=1
+
 # Hardware Info
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.device.chipset="Qualcomm Snapdragon S2" \
