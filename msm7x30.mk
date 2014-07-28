@@ -123,6 +123,7 @@ PRODUCT_PACKAGES += qcmediaplayer
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
+    DeviceSettings \
     Torch
 
 # we have enough storage space to hold precise GC data
