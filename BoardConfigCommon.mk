@@ -81,6 +81,13 @@ BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/semc/msm7x30-common/recovery/re
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/msm_hsusb/gadget/lun%d/file"
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := \"/sys/class/leds/lcd-backlight/brightness\"
 
+# PhilZ Touch
+DEVICE_RESOLUTION := 320x480
+BOARD_HAS_LOW_RESOLUTION := true
+HAVE_SELINUX := true
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"font_7x16.h\"
+
+
 # Kernel
 TARGET_NO_KERNEL := false
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
