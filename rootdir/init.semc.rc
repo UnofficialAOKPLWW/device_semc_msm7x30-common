@@ -166,7 +166,7 @@ on property:init.svc.bootanim=stopped
     write /sys/block/mtdblock1/queue/scheduler row
     write /sys/block/mtdblock2/queue/scheduler row
     # Set governor & CPU speeds
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "interactive"
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "interactivex"
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq "1017600"
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq "122880"
 
