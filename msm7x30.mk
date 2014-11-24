@@ -125,6 +125,8 @@ PRODUCT_PACKAGES += \
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
 
+# Live wallpapers picker
+PRODUCT_PACKAGES += LiveWallpapersPicker
 # Common device properties
 PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/system/lib/libril-qc-1.so \
