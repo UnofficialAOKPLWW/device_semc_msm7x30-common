@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libc2dcolorconvert
 
+# Recovery
+PRODUCT_PACKAGES += \
+    keycheck
+
 # qcmediaplayer
 PRODUCT_PACKAGES += qcmediaplayer
 
